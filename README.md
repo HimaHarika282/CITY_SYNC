@@ -1,8 +1,8 @@
-# Urban Nexus - Smart City Management System
+# CITY_SYNC - Smart City Management System
 
 ## Project Overview
 
-**Urban Nexus** is a comprehensive Smart City Management System that allows citizens and authorities to interact seamlessly. It integrates multiple services such as utilities, emergency requests, property management, transport facilities, and more. The system is built using **Flask**, **MySQL**, and **HTML/CSS/JS** for the frontend.
+**CITY_SYNC** is a comprehensive Smart City Management System that allows citizens and authorities to interact seamlessly. It integrates multiple services such as utilities, emergency requests, property management, transport facilities, and more. The system is built using **Flask**, **MySQL**, and **HTML/CSS/JS** for the frontend.
 
 The project provides:
 - Citizen portal for registration, login, and managing personal information.
@@ -42,7 +42,7 @@ The project provides:
 
 ## Folder Structure
 
-urban_nexus/
+CITY_SYNC/
 │
 ├── authority/ # Authority portal
 │ ├── init.py # Blueprint initialization
