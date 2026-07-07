@@ -14,11 +14,11 @@ import mysql.connector
 
 def get_db():
     return mysql.connector.connect(
-        host=os.getenv("MYSQLHOST"),
-        user=os.getenv("MYSQLUSER"),
-        password=os.getenv("MYSQLPASSWORD"),
-        database=os.getenv("MYSQLDATABASE"),
-        port=int(os.getenv("MYSQLPORT"))
+        host=os.getenv("MYSQLHOST", "127.0.0.1"),
+        user=os.getenv("MYSQLUSER", "root"),
+        password=os.getenv("MYSQLPASSWORD", "harikam@2007"),
+        database=os.getenv("MYSQLDATABASE", "smartcity_db"),
+        port=int(os.getenv("MYSQLPORT", 3306))
     )
 
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
